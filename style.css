@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: hsl(217, 54%, 11%);
+  font-family: Outfit, sans-serif;
+  font-size: 1.2em;
+}
+
+.component {
+  max-width: 350px;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 25px;
+  margin: 30px;
+  padding: 25px;
+  border-radius: 10px;
+  color: hsl(215, 51%, 70%);
+  background-color: hsl(216, 50%, 16%);
+}
+.component__image {
+  width: 100%;
+  max-height: 300px;
+  align-self: center;
+  border-radius: 10px;
+}
+.component .inLink:hover {
+  opacity: 0.5;
+}
+.component .link:hover {
+  background-color: hsl(178, 100%, 50%);
+  background-image: url("images/icon-view.svg");
+  background-size: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.component__title {
+  font-size: 1.5em;
+}
+.component__title a {
+  text-decoration: none;
+  color: white;
+}
+.component__title a:hover {
+  color: hsl(178, 100%, 50%);
+}
+.component__other {
+  max-width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+.component__other__content-one {
+  justify-self: flex-start;
+}
+.component__other__content-one strong {
+  color: hsl(178, 100%, 50%);
+}
+.component__other__content-two {
+  justify-self: flex-end;
+}
+.component__profile {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-top: 15px;
+  border-top: 1px solid hsl(215, 32%, 27%);
+}
+.component__profile a {
+  text-decoration: none;
+  color: white;
+}
+.component__profile a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
