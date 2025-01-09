@@ -59,20 +59,19 @@ body {
         a { text-decoration: none; color: white; }
         a:hover { color: $secondaryTxColor; }
     }
+
     &__other {
-        max-width: 350px;
+        width: 100%;
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
-        &__content-one {
-            justify-self: flex-start;
-            strong {
-                color: $secondaryTxColor;
-            }
+        align-items: center;
+        strong {
+            color: $secondaryTxColor;
         }
-        &__content-two {
-            justify-self: flex-end;
-        }
+
     }
+
     &__profile {
         width: 100%;
         display: flex;
